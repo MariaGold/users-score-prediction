@@ -1,0 +1,5 @@
+.vscode
+.DS_Store
+./app/src/Modules/__pycache__
+./app/src/data/data.csv
+./app/src/data/datasets/data_1.csv

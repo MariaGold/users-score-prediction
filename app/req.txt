@@ -1,0 +1,7 @@
+numpy==1.18.3
+Flask==1.0.2
+pandas==1.1.5
+onnxruntime
+skl2onnx
+scikit-learn
+mlprodict

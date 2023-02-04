@@ -1,0 +1,15 @@
+version: '3'
+
+networks:
+  project-mm:
+
+services:
+  matchmaker:
+    build: ./app
+    volumes:
+      - "./app/src:/app:rw"
+    restart: unless-stopped
+    ports:
+      - 8080:5000
+    networks:
+      - project-mm
